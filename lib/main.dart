@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:may10/pages/task1/star.dart';
 import 'package:may10/pages/task2/task2.dart';
+import 'package:may10/pages/task3/screen1_page/screen1.dart';
+import 'package:may10/pages/task3/screen1_page/widgets/buttonPages.dart';
 import 'package:may10/pages/task3/task3_screen.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       designSize: Size(375, 812),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: TaskScreen(),
+        home: KinoNameInfo(),
       ),
     );
   }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:may10/pages/task3/screen1_page/screen1.dart';
 import 'package:may10/pages/task3/widgets/float_navigation_button.dart';
 import 'package:may10/pages/task3/widgets/photo_container.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -46,7 +47,7 @@ class _VidioMoveState extends State<VidioMove> {
                         Text(
                           " Search something here",
                           style: TextStyle(
-                            color: Color.fromARGB(255, 77, 89, 106),
+                            color: const Color.fromARGB(255, 77, 89, 106),
                             fontSize: 14.sp,
                           ),
                         ),
@@ -55,6 +56,7 @@ class _VidioMoveState extends State<VidioMove> {
                   ),
                   SizedBox(width: 10.w),
                   ZoomTapAnimation(
+                    onTap: () {},
                     child: Container(
                       padding: const EdgeInsets.all(12),
                       width: 55.w,
@@ -74,6 +76,16 @@ class _VidioMoveState extends State<VidioMove> {
               Row(
                 children: [
                   ZoomTapAnimation(
+                    onTap: () {
+                      setState(() {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) {
+                            return const KinoNameInfo();
+                          }),
+                        );
+                      });
+                    },
                     child: PhotoContainer(
                       image: "assets/images/avatar.webp",
                       reting: "9.8",
@@ -160,7 +172,6 @@ class _VidioMoveState extends State<VidioMove> {
                   ),
                 ],
               ),
-              
               SizedBox(height: 10.h),
             ],
           ),
