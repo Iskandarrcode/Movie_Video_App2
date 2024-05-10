@@ -73,73 +73,94 @@ class _VidioMoveState extends State<VidioMove> {
               SizedBox(height: 30.h),
               Row(
                 children: [
-                  PhotoContainer(
-                    image: "assets/images/avatar.webp",
-                    reting: "9.8",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/avatar.webp",
+                      reting: "9.8",
+                    ),
                   ),
                   SizedBox(width: 13.w),
-                  PhotoContainer(
-                    image: "assets/images/page1_2.jpg",
-                    reting: "9.7",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_1.jpg",
+                      reting: "9.7",
+                    ),
                   ),
                 ],
               ),
               SizedBox(height: 10.h),
               Row(
                 children: [
-                  PhotoContainer(
-                    image: "assets/images/page1_3.jpg",
-                    reting: "9.6",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_2.jpg",
+                      reting: "9.8",
+                    ),
                   ),
                   SizedBox(width: 13.w),
-                  PhotoContainer(
-                    image: "assets/images/page1_4.jpg",
-                    reting: "9.5",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_3.jpg",
+                      reting: "9.7",
+                    ),
                   ),
                 ],
               ),
               SizedBox(height: 10.h),
               Row(
                 children: [
-                  PhotoContainer(
-                    image: "assets/images/page1_5.jpg",
-                    reting: "9.4",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_4.jpg",
+                      reting: "9.8",
+                    ),
                   ),
                   SizedBox(width: 13.w),
-                  PhotoContainer(
-                    image: "assets/images/page1_6.jpg",
-                    reting: "9.3",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_5.jpg",
+                      reting: "9.7",
+                    ),
                   ),
                 ],
               ),
               SizedBox(height: 10.h),
               Row(
                 children: [
-                  PhotoContainer(
-                    image: "assets/images/page1_2.jpg",
-                    reting: "9.2",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_6.jpg",
+                      reting: "9.8",
+                    ),
                   ),
                   SizedBox(width: 13.w),
-                  PhotoContainer(
-                    image: "assets/images/page1_1.jpg",
-                    reting: "9.1",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/avatar.webp",
+                      reting: "9.7",
+                    ),
                   ),
                 ],
               ),
               SizedBox(height: 10.h),
               Row(
                 children: [
-                  PhotoContainer(
-                    image: "assets/images/page1_5.jpg",
-                    reting: "9.9",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_2.jpg",
+                      reting: "9.8",
+                    ),
                   ),
                   SizedBox(width: 13.w),
-                  PhotoContainer(
-                    image: "assets/images/page1_3.jpg",
-                    reting: "9.0",
+                  ZoomTapAnimation(
+                    child: PhotoContainer(
+                      image: "assets/images/page1_3.jpg",
+                      reting: "9.7",
+                    ),
                   ),
                 ],
               ),
+              
               SizedBox(height: 10.h),
             ],
           ),
